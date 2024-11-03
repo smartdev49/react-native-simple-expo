@@ -2,9 +2,9 @@ import React from "react";
 import { View, Text, Button, StatusBar } from "react-native";
 import styles from "./styles";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
-import { RootStackParamList } from "./router";
+import { RoutesParams } from "./router";
 
-type Props = NativeStackScreenProps<RootStackParamList>;
+type Props = NativeStackScreenProps<RoutesParams>;
 
 export default function Settings({ navigation }: Props) {
   return (
